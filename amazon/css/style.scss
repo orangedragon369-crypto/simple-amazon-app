@@ -71,16 +71,35 @@ h3, .hug, body{
     font-size: 1em;
 }
 
-#order-box, #item-box {
+#order-box, .item-box {
     border: solid 1px #999999;
 }
 
 #order-box{
-    height: 120px;
-    width: 30vw;
+    height: 190px;
+    width: 25vw;
 }
 
-.space, #order-box, #item-box {
+.item-box{
+    width: 65vw;
+    justify-content: space-between;
+}
+
+.space, #order-box, .item-box {
     padding: 5px;
     margin: 5px;
+}
+
+.cart-tittle {
+    font-weight: 500;
+    line-height: 35px;
+}
+
+#order {
+    background-color: #ffcc00;
+    border-radius: 5px;
+    border: initial;
+    width: 21vw;
+    height: 30px;
+    margin: 10px 2vw 0 2vw;
 }
